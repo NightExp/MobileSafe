@@ -36,7 +36,7 @@ public class AppManeger extends Activity {
         setContentView(R.layout.activity_app_maneger);
         initView();
         initData();
-        Toast.makeText(this,"ceshi",Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"再来一次",Toast.LENGTH_SHORT).show();
     }
 
 
