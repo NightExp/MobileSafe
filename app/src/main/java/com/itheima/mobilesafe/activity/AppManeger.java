@@ -10,6 +10,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.itheima.mobilesafe.R;
 import com.itheima.mobilesafe.bean.AppBean;
@@ -35,6 +36,7 @@ public class AppManeger extends Activity {
         setContentView(R.layout.activity_app_maneger);
         initView();
         initData();
+        Toast.makeText(this,"ceshi",Toast.LENGTH_SHORT).show();
     }
 
 
